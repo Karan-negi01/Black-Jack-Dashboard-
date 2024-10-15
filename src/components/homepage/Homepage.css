@@ -16,21 +16,22 @@
 
 .dashboard-header{
     width: 100%;
-    height: 8vh;
-    border: 2px solid #C7BEBE;
+    height: 7vh;
+    border: 1px solid #C7BEBE;
     display: flex;
-    justify-content: space-evenly;
-    /* margin-top: 10px;     */
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
+    /* padding-left: 20px;     */
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
 }
 
 .header-text{
-    width: 10%;
-    
+    width: 9%;
+    /* border: 2px solid red; */
    text-align: center;
    align-content: center;
    cursor: pointer;
+   margin-left: 10px;
 }
 
 .header-text:hover{
@@ -42,17 +43,20 @@
 
 .dashboard{
     width: 100%;
-    height: 91vh;
-    /* border: 2px solid red; */
+    height: 92vh;
+    /* border: 2px solid green; */
     display: flex;
+
 }
 .dashboard-sidebar{
     width: 18%;
-    border-right: 2px solid #C7BEBE;
-    height: 91vh;
+
+    height: 92.9vh;
   
     display: flex;
     flex-direction: column;
+    background: #252525;
+    color: white;
     
 }
 
@@ -60,17 +64,22 @@
    
     list-style: none;
     width: 100%;
-    padding: 10px;
-    height: 91vh;
+    /* padding: 20px; */
+    height: auto;
     /* border: 2px solid black; */
+    transition: background-color 0.3s ease;
+    /* padding-left: 20px; */
+    margin-top: 30px;
+   
     
 }
 .dashboard-sidebar ul li{
-    border: 2px solid #C7BEBE;
+    /* border-top: 1px solid #C7BEBE; */
+    /* border-bottom: 1px solid #C7BEBE; */
     
      height: 7vh;
      align-content: center;
-     padding-left: 20px;
+     padding-left: 40px;
      margin-top: 10px;
      cursor: pointer;
 }
@@ -80,7 +89,7 @@
 
 .dashboard-content{
     width: 100%;
-    height: 91vh;
+    height: 92.9vh;
     /* border: 2px solid blue; */
     padding: 20px;
     background-color: #f4f4f4;

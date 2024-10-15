@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uploadmenu-container{
+    width: 60%;
+    height: 70vh;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C7BEBE;
+    margin-top: 50px;
+    background: #fff;
+}
+.uploadmenu-header{
+    width: 100%;
+    height: 9vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 1px solid #C7BEBE;
+    
+}
+.uploadmenu-header-heading{
+    width: 70%;
+    font-size: 18px;
+    /* border: 2px solid green; */
+    align-content: center;
+    font-weight: 600;
+}
+.uploadmenu-header-button{
+    border: none;
+    width: 13%;
+    height: 5vh;
+    align-self: center;
+    background: rgb(246, 87, 29);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.uploadmenu-question{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 1px solid #C7BEBE;
+}
+
+.uploadmenu-question-heading{
+    width: 68%;
+    font-size: 18px;
+    
+    align-content: center;
+    font-weight: 600;
+    /* border: 2px solid green; */
+    color:#b5b0b0 ;
+}
+
+.uploadmenu-question-choice{
+    width: 16%;
+    height: 6vh;
+    border: 2px solid #C7BEBE;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.uploadmenu-question-yes{
+    width: 50%;
+    border-right: 1px solid #C7BEBE;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    color:#b5b0b0 ;
+}
+
+.uploadmenu-question-no{
+    width: 50%;
+    /* border-right: 1px solid red; */
+    text-align: center;
+    align-content: center;
+    color:#b5b0b0 ;
+    cursor: pointer;
+}
+.uploadmenu-question-yes:hover{
+    background: #C7BEBE;
+    color: white;
+}
+.uploadmenu-question-no:hover{
+    background: #C7BEBE;
+    color: white;
+}
+.uploadmenu-header-button:hover{
+    transform: scale(1.1);
+}
