@@ -134,6 +134,9 @@
     height: 5vh;
     cursor: pointer;
     /* border: 2px solid black; */
+    border: none;
+    border: 1px solid #C7BEBE;
+    
 }
 .custom-form-group {
     background-color: #f8f9fa; /* Light gray background */
